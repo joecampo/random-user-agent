@@ -15,6 +15,6 @@ class UserAgent
         $agents = file(__DIR__ . '/useragents.txt');
         $key = array_rand($agents);
 
-        return $agents[$key];
+        return str_replace("\n", '', $agents[$key]);
     }
 }
