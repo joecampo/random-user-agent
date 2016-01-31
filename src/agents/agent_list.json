@@ -27,8 +27,8 @@
         "agent_string": "Bunjalloo\/0.7.6(Nintendo DS;U;en)",
         "agent_type": "Console",
         "agent_name": "Bunjalloo",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo DS",
+        "os_name": "Nintendo DS",
         "device_type": "Console"
     },
     {
@@ -91,16 +91,16 @@
         "agent_string": "Mozilla\/4.0 (PS3 (PlayStation 3); 1.00)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "Playstation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/4.0 (PSP (PlayStation Portable); 2.00)",
         "agent_type": "Console",
         "agent_name": "PlayStation Portable",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation Portable",
         "device_type": "Console"
     },
     {
@@ -234,10 +234,10 @@
     {
         "agent_string": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident\/6.0; Xbox; Xbox One)",
         "agent_type": "Browser",
-        "agent_name": "Internet Explorer",
-        "os_type": "Windows",
-        "os_name": "Windows 8",
-        "device_type": "Desktop"
+        "agent_name": "Xbox One",
+        "os_type": "Xbox",
+        "os_name": "Xbox One",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident\/6.0; IEMobile\/10.0; ARM; Touch; NOKIA; Lumia 929",
@@ -307,7 +307,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_1 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B411 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -315,7 +315,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B436 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -323,7 +323,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B440 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -331,7 +331,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B466 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -339,7 +339,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12D508 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -347,7 +347,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12F69 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -355,7 +355,7 @@
         "agent_string": "Mozilla\/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12H143 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
         "device_type": "Tablet"
     },
@@ -363,78 +363,78 @@
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B411 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B435 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B440 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12B466 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12D508 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) CriOS\/42.0.2311.47 Mobile\/12F70 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) CriOS\/43.0.2357.61 Mobile\/12F70 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12F70 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit\/600.1.4 (KHTML, like Gecko) Version\/8.0 Mobile\/12H143 Safari\/600.1.4",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "iOS",
         "os_name": "iPhone OS",
-        "device_type": "Desktop"
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 4.1.2; GT-I9100 Build\/JZO54K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/32.0.1700.99 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -442,7 +442,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 4.1.2; GT-I9100 Build\/JZO54K) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/33.0.1750.117 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -450,7 +450,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 4.4.2; GT-I9100 Build\/KVT49L) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/30.0.0.0 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -458,7 +458,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 4.4.2; GT-I9505 Build\/KOT4H9) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.59 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -466,7 +466,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 4.4.4; SM-N910F Build\/KTU84P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.59 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -474,7 +474,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; Android 5.0; Nexus 4 Build\/LRX21T) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.59 Mobile Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Chrome",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -482,7 +482,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; U; Android 4.0.3; en-us; Galaxy S II Build\/GRJ22) AppleWebKit\/534.30 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/534.30",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Mobile Safari",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -490,7 +490,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; U; Android 4.1.1; en-us; SonyC1505 Build\/11.3.A.0.47) AppleWebKit\/534.30 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/534.30",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Mobile Safari",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -498,7 +498,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Linux; U; Android 4.3.1; en-us; GT-I9100 Build\/JLS36I) AppleWebKit\/534.30 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/534.30 CyanogenMod\/10.2\/i9100",
         "agent_type": "Browser",
-        "agent_name": "Android Webkit Browser",
+        "agent_name": "Mobile Safari",
         "os_type": "Android",
         "os_name": "Android",
         "device_type": "Tablet"
@@ -514,8 +514,8 @@
     {
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.10; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
-        "os_type": "Macintosh",
+        "agent_name": "Seamonkey",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -523,7 +523,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko\/20100101 Firefox\/40.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -531,7 +531,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko\/20100101 Firefox\/41.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -539,7 +539,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko\/20100101 Firefox\/42.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -547,7 +547,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko\/20100101 Firefox\/43.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -555,15 +555,15 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.8; rv:40.0) Gecko\/20100101 Firefox\/40.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
     {
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
-        "os_type": "Macintosh",
+        "agent_name": "Seamonkey",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -571,7 +571,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:40.0) Gecko\/20100101 Firefox\/40.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -579,7 +579,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:41.0) Gecko\/20100101 Firefox\/41.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -587,7 +587,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:42.0) Gecko\/20100101 Firefox\/42.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -595,7 +595,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:43.0) Gecko\/20100101 Firefox\/43.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -603,7 +603,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.125 Safari\/537.36 OPR\/25.0.1614.71",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -611,7 +611,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/42.0.2311.152 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -619,7 +619,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.125 Safari\/537.36 OPR\/25.0.1614.71",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -627,7 +627,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.124 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -635,7 +635,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.125 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -643,7 +643,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.130 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -651,7 +651,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.81 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -659,7 +659,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/42.0.2311.152 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -667,7 +667,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.125 Safari\/537.36 OPR\/25.0.1614.71",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -675,7 +675,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.124 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -683,7 +683,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.125 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -691,7 +691,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.130 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -699,7 +699,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.81 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -707,7 +707,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/44.0.2403.52 Safari\/537.36 OPR\/31.0.1889.50 (Edition beta)",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -715,7 +715,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit\/600.3.10 (KHTML, like Gecko) Version\/8.0.3 Safari\/600.3.10",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -723,7 +723,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/42.0.2311.152 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -731,7 +731,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.125 Safari\/537.36 OPR\/25.0.1614.71",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -739,7 +739,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.124 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -747,7 +747,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.125 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -755,7 +755,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.130 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -763,7 +763,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.81 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -771,7 +771,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/44.0.2403.52 Safari\/537.36 OPR\/31.0.1889.50 (Edition beta)",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -779,7 +779,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/600.4.10 (KHTML, like Gecko) Version\/8.0.4 Safari\/600.4.10",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -787,7 +787,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/600.5.17 (KHTML, like Gecko) Version\/8.0.5 Safari\/600.5.17",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -795,7 +795,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/600.5.6 (KHTML, like Gecko) Version\/8.0.5 Safari\/600.5.6",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -803,7 +803,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit\/600.6.3 (KHTML, like Gecko) Version\/8.0.6 Safari\/600.6.3",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -811,7 +811,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.124 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -819,7 +819,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.125 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -827,7 +827,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.130 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -835,7 +835,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.2357.81 Safari\/537.36",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -843,7 +843,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/44.0.2403.52 Safari\/537.36 OPR\/31.0.1889.50 (Edition beta)",
         "agent_type": "Browser",
         "agent_name": "Chrome",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -851,7 +851,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/600.6.3 (KHTML, like Gecko) Version\/8.0.6 Safari\/600.6.3",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -859,7 +859,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/600.7.10 (KHTML, like Gecko) Version\/8.0.7 Safari\/600.7.10",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -867,7 +867,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/600.7.11 (KHTML, like Gecko) Version\/8.0.7 Safari\/600.7.11",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -875,7 +875,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/600.7.12 (KHTML, like Gecko) Version\/8.0.7 Safari\/600.7.12",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -883,7 +883,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit\/600.7.7 (KHTML, like Gecko) Version\/8.0.7 Safari\/600.7.7",
         "agent_type": "Browser",
         "agent_name": "Safari",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -891,7 +891,7 @@
         "agent_string": "Mozilla\/5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit\/537+ (KHTML, like Gecko) Version\/5.0 Safari\/537.6+ Midori\/0.4",
         "agent_type": "Browser",
         "agent_name": "Midori",
-        "os_type": "Macintosh",
+        "os_type": "OS X",
         "os_name": "OS X",
         "device_type": "Desktop"
     },
@@ -899,97 +899,97 @@
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:40.0) Gecko\/40.0 Firefox\/40.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:41.0) Gecko\/41.0 Firefox\/41.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:42.0) Gecko\/42.0 Firefox\/42.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:43.0) Gecko\/43.0 Firefox\/43.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:44.0) Gecko\/44.0 Firefox\/44.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; OPENC; rv:45.0) Gecko\/45.0 Firefox\/45.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:40.0) Gecko\/40.0 Firefox\/40.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:41.0) Gecko\/41.0 Firefox\/41.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:42.0) Gecko\/42.0 Firefox\/42.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:43.0) Gecko\/43.0 Firefox\/43.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:44.0) Gecko\/44.0 Firefox\/44.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; rv:45.0) Gecko\/45.0 Firefox\/45.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "os_type": "Firefox OS",
+        "os_name": "Firefox OS",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident\/7.0; Touch; rv:11.0; IEMobile\/11.0; HTC; HTC6690LVW) like iPhone OS 7_0_3 Mac OS X AppleWebKit\/537 (KHTML, like Gecko) Mobile Safari\/537",
@@ -1091,177 +1091,177 @@
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.0)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.00)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.10)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.5)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.70)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 1.90)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 2.00)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 3.55)",
         "agent_type": "Console",
         "agent_name": "PlayStation 3",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
         "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 4.50) AppleWebKit\/531.22.8 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 4.53) AppleWebKit\/531.22.8 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 4.55) AppleWebKit\/531.22.8 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 4.60) AppleWebKit\/531.22.8 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PLAYSTATION 3; 4.66) AppleWebKit\/531.22.8 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 3",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.00) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.01) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.02) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.03) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.04) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.50) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation 4 2.51) AppleWebKit\/537.73 (KHTML, like Gecko)",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation 4",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation Vita 3.36) AppleWebKit\/537.73 (KHTML, like Gecko) Silk\/3.2",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation Vita",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (PlayStation Vita 3.50) AppleWebKit\/537.73 (KHTML, like Gecko) Silk\/3.2",
         "agent_type": "Browser",
-        "agent_name": "Safari",
-        "os_type": "unknown",
-        "os_name": "unknown",
-        "device_type": "Desktop"
+        "agent_name": "NetFront",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation Vita",
+        "device_type": "Console"
     },
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/42.0.2311.135 Safari\/537.36",
@@ -1330,7 +1330,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows 7",
         "device_type": "Desktop"
@@ -1402,7 +1402,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64; rv:24.0) Gecko\/20140129 Firefox\/24.0 PaleMoon\/24.3.1",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 7",
         "device_type": "Desktop"
@@ -1410,7 +1410,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64; rv:24.7) Gecko\/20140907 Firefox\/24.7 PaleMoon\/24.7.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 7",
         "device_type": "Desktop"
@@ -1418,7 +1418,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko\/20141021 Firefox\/24.9 PaleMoon\/25.0.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 7",
         "device_type": "Desktop"
@@ -1474,7 +1474,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows 7",
         "device_type": "Desktop"
@@ -1556,29 +1556,29 @@
         "agent_type": "Browser",
         "agent_name": "Internet Explorer",
         "os_type": "Windows",
-        "os_name": "Windows 8",
-        "device_type": "Desktop"
+        "os_name": "Windows Phone",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0; Touch; rv:11.0; WPDesktop; Lumia 928) like Gecko",
         "agent_type": "Browser",
         "agent_name": "Internet Explorer",
         "os_type": "Windows",
-        "os_name": "Windows 8",
-        "device_type": "Desktop"
+        "os_name": "Windows Phone",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; ARM; Trident\/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 1320) like Gecko",
         "agent_type": "Browser",
         "agent_name": "Internet Explorer",
         "os_type": "Windows",
-        "os_name": "Windows 8",
-        "device_type": "Desktop"
+        "os_name": "Windows Phone",
+        "device_type": "Mobile"
     },
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows 8",
         "device_type": "Desktop"
@@ -1658,7 +1658,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; Win64; x64; rv:24.0) Gecko\/20140129 Firefox\/24.0 PaleMoon\/24.3.1",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 8",
         "device_type": "Desktop"
@@ -1666,7 +1666,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; Win64; x64; rv:24.7) Gecko\/20140907 Firefox\/24.7 PaleMoon\/24.7.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 8",
         "device_type": "Desktop"
@@ -1674,7 +1674,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; Win64; x64; rv:25.0) Gecko\/20141021 Firefox\/24.9 PaleMoon\/25.0.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows 8",
         "device_type": "Desktop"
@@ -1730,7 +1730,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.2; WOW64; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows 8",
         "device_type": "Desktop"
@@ -1794,7 +1794,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.3; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows NT",
         "device_type": "Desktop"
@@ -1842,7 +1842,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.3; Win64; x64; rv:24.0) Gecko\/20140129 Firefox\/24.0 PaleMoon\/24.3.1",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows NT",
         "device_type": "Desktop"
@@ -1850,7 +1850,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.3; Win64; x64; rv:24.7) Gecko\/20140907 Firefox\/24.7 PaleMoon\/24.7.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows NT",
         "device_type": "Desktop"
@@ -1858,7 +1858,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.3; Win64; x64; rv:25.0) Gecko\/20141021 Firefox\/24.9 PaleMoon\/25.0.2",
         "agent_type": "Browser",
-        "agent_name": "Palemoon",
+        "agent_name": "Pale Moon",
         "os_type": "Windows",
         "os_name": "Windows NT",
         "device_type": "Desktop"
@@ -1890,7 +1890,7 @@
     {
         "agent_string": "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko\/20100101 Firefox\/36.0 Seamonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Windows",
         "os_name": "Windows NT",
         "device_type": "Desktop"
@@ -1948,7 +1948,7 @@
         "agent_type": "Browser",
         "agent_name": "Konqueror",
         "os_type": "Windows",
-        "os_name": "",
+        "os_name": "Windows 7",
         "device_type": "Desktop"
     },
     {
@@ -1994,7 +1994,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; FreeBSD amd64; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "BSD",
         "os_name": "FreeBSD",
         "device_type": "Desktop"
@@ -2050,7 +2050,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; FreeBSD i386; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "BSD",
         "os_name": "FreeBSD",
         "device_type": "Desktop"
@@ -2066,7 +2066,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.21 (KHTML, like Gecko) konqueror\/4.14.2 Safari\/537.21",
         "agent_type": "Browser",
-        "agent_name": "Safari",
+        "agent_name": "Konqueror",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2074,7 +2074,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.21 (KHTML, like Gecko) QupZilla\/1.6.6 Safari\/537.21",
         "agent_type": "Browser",
-        "agent_name": "Safari",
+        "agent_name": "QupZilla",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2162,7 +2162,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/36.0.1976.2 Chrome\/36.0.1976.2 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2170,7 +2170,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/36.0.1985.143 Chrome\/36.0.1985.143 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2178,7 +2178,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/37.0.2062.120 Chrome\/37.0.2062.120 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2186,7 +2186,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/37.0.2062.94 Chrome\/37.0.2062.94 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2194,7 +2194,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/38.0.2125.111 Chrome\/38.0.2125.111 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2210,7 +2210,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux i686; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2282,7 +2282,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.21 (KHTML, like Gecko) konqueror\/4.14.2 Safari\/537.21",
         "agent_type": "Browser",
-        "agent_name": "Safari",
+        "agent_name": "konqueror",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2290,7 +2290,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.21 (KHTML, like Gecko) QupZilla\/1.6.6 Safari\/537.21",
         "agent_type": "Browser",
-        "agent_name": "Safari",
+        "agent_name": "QupZilla",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2378,7 +2378,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/36.0.1976.2 Chrome\/36.0.1976.2 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2386,7 +2386,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/36.0.1985.143 Chrome\/36.0.1985.143 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2394,7 +2394,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/37.0.2062.120 Chrome\/37.0.2062.120 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2402,7 +2402,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/37.0.2062.94 Chrome\/37.0.2062.94 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2410,7 +2410,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Ubuntu Chromium\/38.0.2125.111 Chrome\/38.0.2125.111 Safari\/537.36",
         "agent_type": "Browser",
-        "agent_name": "Chrome",
+        "agent_name": "Chromium",
         "os_type": "Linux",
         "os_name": "Ubuntu",
         "device_type": "Desktop"
@@ -2426,7 +2426,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; Linux x86_64; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "Linux",
         "os_name": "Linux",
         "device_type": "Desktop"
@@ -2499,7 +2499,7 @@
         "agent_string": "Mozilla\/5.0 (X11; NetBSD amd64; rv:42.0) Gecko\/20100101 Firefox\/42.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Linux",
+        "os_type": "BSD",
         "os_name": "NetBSD",
         "device_type": "Desktop"
     },
@@ -2507,7 +2507,7 @@
         "agent_string": "Mozilla\/5.0 (X11; NetBSD amd64; rv:43.0) Gecko\/20100101 Firefox\/43.0",
         "agent_type": "Browser",
         "agent_name": "Firefox",
-        "os_type": "Linux",
+        "os_type": "BSD",
         "os_name": "NetBSD",
         "device_type": "Desktop"
     },
@@ -2554,7 +2554,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; OpenBSD amd64; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "BSD",
         "os_name": "OpenBSD",
         "device_type": "Desktop"
@@ -2610,7 +2610,7 @@
     {
         "agent_string": "Mozilla\/5.0 (X11; OpenBSD i386; rv:36.0) Gecko\/20100101 Firefox\/36.0 SeaMonkey\/2.33.1",
         "agent_type": "Browser",
-        "agent_name": "SeaMonkey",
+        "agent_name": "Seamonkey",
         "os_type": "BSD",
         "os_name": "OpenBSD",
         "device_type": "Desktop"
@@ -2665,34 +2665,34 @@
     },
     {
         "agent_string": "Opera\/9.10 (Nintendo Wii; U; ; 1621; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     },
     {
         "agent_string": "Opera\/9.30 (Nintendo Wii; U; ; 2047-7; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     },
     {
         "agent_string": "Opera\/9.30 (Nintendo Wii; U; ; 3642; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     },
     {
         "agent_string": "PSP (PlayStation Portable); 2.00",
         "agent_type": "Console",
         "agent_name": "PlayStation Portable",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "PlayStation",
+        "os_name": "PlayStation Portable",
         "device_type": "Console"
     },
     {
@@ -2713,26 +2713,26 @@
     },
     {
         "agent_string": "Opera\/9.00 (Nintendo Wii; U; ; 1309-9; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     },
     {
         "agent_string": "Opera\/9.10 (Nintendo Wii; U; ; 1621; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     },
     {
         "agent_string": "Opera\/9.30 (Nintendo Wii; U; ; 2047-7; en)",
-        "agent_type": "Console",
+        "agent_type": "Browser",
         "agent_name": "Opera",
-        "os_type": "unknown",
-        "os_name": "unknown",
+        "os_type": "Nintendo Wii",
+        "os_name": "Nintendo Wii",
         "device_type": "Console"
     }
 ]

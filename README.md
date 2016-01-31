@@ -1,10 +1,8 @@
 # random-user-agent
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
 
-Generate real random user agents.
-
-This project is a fork of [joecampo's random-user-agent](https://github.com/joecampo/random-user-agent). The original has been very useful in providing user agent strings. This fork provides the ability to filter results based on device type, agent, and operating system.
-
-The user agent list is largely pulled from the Firefox extension [random-agent-spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/) h/t [dillbyrne/random-agent-spoofer](https://github.com/dillbyrne/random-agent-spoofer). Additional entries were sourced from [UserAgentString.com](http://www.useragentstring.com/) and [WiiBrew](http://wiibrew.org/wiki/User_agents) to provide more options for consoles and common web crawlers
+Generate real random user-agents. The user agent list is largely pulled from the Firefox extension [random-agent-spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/) h/t [dillbyrne/random-agent-spoofer](https://github.com/dillbyrne/random-agent-spoofer). Additional entries were sourced from [UserAgentString.com](http://www.useragentstring.com/) and [WiiBrew](http://wiibrew.org/wiki/User_agents) to provide more options for consoles and common web crawlers
 
 You should be running at least PHP 5.4 to use this class
 
@@ -63,4 +61,7 @@ This class will throw an exception if either a filter returns no user agent stri
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/campo/random-user-agent.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/campo/random-user-agent
