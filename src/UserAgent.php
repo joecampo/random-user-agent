@@ -2,7 +2,7 @@
 
 /**
  * Random User Agent Class
- * 
+ *
  * This class is used to return a randomly-selected user agent string, which may be based on
  * a given set of criteria. See README.md for more details on how to use this class
  *
@@ -17,9 +17,11 @@ class UserAgent
     /**
      * Grab a random user agent from the library's agent list
      *
+     * @param  array $filterBy
      * @return string
+     * @throws \Exception
      */
-    public static function random($filterBy=[])
+    public static function random($filterBy = [])
     {
         $agents = self::loadUserAgents($filterBy);
 
@@ -27,7 +29,7 @@ class UserAgent
             throw new \Exception('No user agents matched the filter');
         }
 
-        return $agents[mt_rand(0, count($agents)-1)];
+        return $agents[mt_rand(0, count($agents) - 1)];
     }
 
 
@@ -95,15 +97,17 @@ class UserAgent
 
     /**
      * This is a helper for the publicly-exposed methods named get...()
+     * @param  string $fieldName
      * @return array
+     * @throws \Exception
      */
     private static function getField($fieldName)
     {
         $agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
         $values = [];
 
-        foreach($agentDetails as $agent) {
-            if (! isset($agent[$fieldName])) {
+        foreach ($agentDetails as $agent) {
+            if (!isset($agent[$fieldName])) {
                 throw new \Exception("Field name \"$fieldName\" not found, can't continue");
             }
 
@@ -120,7 +124,7 @@ class UserAgent
      * @param array $filterBy
      * @return array
      */
-    private static function validateFilter($filterBy=[])
+    private static function validateFilter($filterBy = [])
     {
         // Components of $filterBy that will not be ignored
         $filterParams = [
@@ -133,8 +137,8 @@ class UserAgent
 
         $outputFilter = [];
 
-        foreach($filterParams as $field) {
-            if (! empty($filterBy[$field])) {
+        foreach ($filterParams as $field) {
+            if (!empty($filterBy[$field])) {
                 $outputFilter[$field] = $filterBy[$field];
             }
         }
@@ -149,16 +153,16 @@ class UserAgent
      * @param array $filterBy
      * @return array
      */
-    private static function loadUserAgents($filterBy=[])
+    private static function loadUserAgents($filterBy = [])
     {
         $filterBy = self::validateFilter($filterBy);
 
         $agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
         $agentStrings = [];
 
-        for($i=0; $i<count($agentDetails); $i++) {
-            foreach($filterBy as $key => $value) {
-                if (! isset($agentDetails[$i][$key]) || strcasecmp($agentDetails[$i][$key], $value) !== 0) {
+        for ($i = 0; $i < count($agentDetails); $i++) {
+            foreach ($filterBy as $key => $value) {
+                if (!isset($agentDetails[$i][$key]) || strcasecmp($agentDetails[$i][$key], $value) !== 0) {
                     continue 2;
                 }
             }
