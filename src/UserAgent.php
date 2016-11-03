@@ -162,7 +162,7 @@ class UserAgent
 
         for ($i = 0; $i < count($agentDetails); $i++) {
             foreach ($filterBy as $key => $value) {
-                if (!isset($agentDetails[$i][$key]) || strcasecmp($agentDetails[$i][$key], $value) !== 0) {
+                    if (!isset($agentDetails[$i][$key]) || !in_array(strtolower($agentDetails[$i][$key]), array_map('strtolower', (array) $value))) {
                     continue 2;
                 }
             }
