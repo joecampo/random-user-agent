@@ -43,6 +43,17 @@ A filter is simply an array with key-value pairs specifying the types of agent s
 - `os_name`
 - `os_type`
 
+Filters also support passing additional arrays to better segment the results you will receive from random():
+
+```php
+echo \Campo\UserAgent::random([
+    'os_type' => ['Android', 'iOS'],
+    'device_type' => ['Mobile', 'Tablet']
+]), "\n";
+```
+
+The above will return only user-agent’s for Android & iOS OS types that are either mobile or tablets.
+
 To get a list of values that can be accepted by these filter fields, you can use the following methods which will return arrays of values that can be used with the respected fields noted above:
 
 - `UserAgent::getDeviceTypes()`
