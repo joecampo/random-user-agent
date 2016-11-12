@@ -32,7 +32,6 @@ class UserAgent
         return $agents[mt_rand(0, count($agents) - 1)];
     }
 
-
     /**
      * Get all of the unique values of the device_type field, which can be used for filtering
      * Device types give a general description of the type of hardware that the agent is running,
@@ -44,7 +43,6 @@ class UserAgent
     {
         return self::getField('device_type');
     }
-
 
     /**
      * Get all of the unique values of the agent_type field, which can be used for filtering
@@ -58,7 +56,6 @@ class UserAgent
         return self::getField('agent_type');
     }
 
-
     /**
      * Get all of the unique values of the agent_name field, which can be used for filtering
      * Agent names are general identifiers for a given user agent. For example, "Chrome" or "Firefox"
@@ -69,7 +66,6 @@ class UserAgent
     {
         return self::getField('agent_name');
     }
-
 
     /**
      * Get all of the unique values of the os_type field, which can be used for filtering
@@ -82,7 +78,6 @@ class UserAgent
         return self::getField('os_type');
     }
 
-
     /**
      * Get all of the unique values of the os_name field, which can be used for filtering
      * OS Names are more specific names given to an operating system, such as "Windows Phone OS"
@@ -94,7 +89,6 @@ class UserAgent
         return self::getField('os_name');
     }
 
-
     /**
      * This is a helper for the publicly-exposed methods named get...()
      * @param  string $fieldName
@@ -104,7 +98,7 @@ class UserAgent
     private static function getField($fieldName)
     {
         $agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
-        $values = [];
+        $values       = [];
 
         foreach ($agentDetails as $agent) {
             if (!isset($agent[$fieldName])) {
@@ -116,7 +110,6 @@ class UserAgent
 
         return array_values(array_unique($values));
     }
-
 
     /**
      * Validates the filter so that no unexpected values make their way through
@@ -132,7 +125,7 @@ class UserAgent
             'agent_type',
             'device_type',
             'os_name',
-            'os_type'
+            'os_type',
         ];
 
         $outputFilter = [];
@@ -145,7 +138,6 @@ class UserAgent
 
         return $outputFilter;
     }
-
 
     /**
      * Returns an array of user agents that match a filter if one is provided
@@ -162,7 +154,7 @@ class UserAgent
 
         for ($i = 0; $i < count($agentDetails); $i++) {
             foreach ($filterBy as $key => $value) {
-                    if (!isset($agentDetails[$i][$key]) || !in_array(strtolower($agentDetails[$i][$key]), array_map('strtolower', (array) $value))) {
+                if (!isset($agentDetails[$i][$key]) || !self::inFilter($agentDetails[$i][$key], $value)) {
                     continue 2;
                 }
             }
@@ -170,5 +162,17 @@ class UserAgent
         }
 
         return array_values($agentStrings);
+    }
+
+    /**
+     * return if key exist in array of filters
+     *
+     * @param  $key
+     * @param  $array
+     * @return bool
+     */
+    private static function inFilter($key, $array)
+    {
+        return in_array(strtolower($key), array_map('strtolower', (array) $array));
     }
 }
