@@ -26,7 +26,7 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
         $this->assertNotEmpty($deviceTypes);
         $this->assertEquals(count($expectedDeviceTypes), count($deviceTypes));
 
-        foreach($expectedDeviceTypes as $type) {
+        foreach ($expectedDeviceTypes as $type) {
             $this->assertContains($type, $expectedDeviceTypes);
         }
     }
@@ -45,7 +45,7 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
         $this->assertNotEmpty($agentTypes);
         $this->assertEquals(count($expectedAgentTypes), count($agentTypes));
 
-        foreach($expectedAgentTypes as $type) {
+        foreach ($expectedAgentTypes as $type) {
             $this->assertContains($type, $agentTypes);
         }
     }
@@ -94,7 +94,7 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
         $this->assertNotEmpty($agentNames);
         $this->assertEquals(count($expectedAgentNames), count($agentNames));
 
-        foreach($expectedAgentNames as $name) {
+        foreach ($expectedAgentNames as $name) {
             $this->assertContains($name, $agentNames);
         }
     }
@@ -122,7 +122,7 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
         $this->assertNotEmpty($OSTypes);
         $this->assertEquals(count($expectedOSTypes), count($OSTypes));
 
-        foreach($expectedOSTypes as $type) {
+        foreach ($expectedOSTypes as $type) {
             $this->assertContains($type, $OSTypes);
         }
     }
@@ -160,7 +160,7 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
         $this->assertNotEmpty($OSNames);
         $this->assertEquals(count($expectedOSNames), count($OSNames));
 
-        foreach($expectedOSNames as $name) {
+        foreach ($expectedOSNames as $name) {
             $this->assertContains($name, $OSNames);
         }
     }
@@ -175,5 +175,15 @@ class UserAgentTest extends \PHPUnit_Framework_TestCase
             'os_name' => 'MS-DOS 6.2',
             'device_type' => 'unknown'
         ]);
+    }
+
+    public function testFilterAcceptsArrays()
+    {
+        $userAgent = UserAgent::random([
+            'os_type' => ['Xbox', 'NA', ''],
+            'agent_name' => ['Xbox One', 'NA', '']
+        ]);
+
+        $this->assertContains('Xbox One', $userAgent);
     }
 }
