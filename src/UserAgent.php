@@ -15,6 +15,13 @@ namespace Campo;
 class UserAgent
 {
     /**
+     * Agent data stored in file agent_list.json.
+     *
+     * @var array
+     */
+    private static $agentDetails;
+
+    /**
      * Grab a random user agent from the library's agent list
      *
      * @param  array $filterBy
@@ -97,7 +104,7 @@ class UserAgent
      */
     private static function getField($fieldName)
     {
-        $agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
+        $agentDetails = self::getAgentDetails();
         $values       = [];
 
         foreach ($agentDetails as $agent) {
@@ -149,7 +156,7 @@ class UserAgent
     {
         $filterBy = self::validateFilter($filterBy);
 
-        $agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
+        $agentDetails = self::getAgentDetails();
         $agentStrings = [];
 
         for ($i = 0; $i < count($agentDetails); $i++) {
@@ -174,5 +181,17 @@ class UserAgent
     private static function inFilter($key, $array)
     {
         return in_array(strtolower($key), array_map('strtolower', (array) $array));
+    }
+
+    /**
+     * @return array
+     */
+    private static function getAgentDetails()
+    {
+        if (!isset(self::$agentDetails)) {
+            self::$agentDetails = json_decode(file_get_contents(__DIR__ . '/agents/agent_list.json'), true);
+        }
+
+        return self::$agentDetails;
     }
 }
